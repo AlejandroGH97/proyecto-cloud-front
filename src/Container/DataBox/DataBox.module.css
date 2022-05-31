@@ -1,0 +1,51 @@
+.dataBox {
+  max-height: 700px;
+  min-height: 400px;
+  width: 60%;
+  min-width: 400px;
+  max-width: 1000px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dataTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .dataBox {
+    width: 90%;
+  }
+}
+
+.star {
+  fill: #ffd700;
+  stroke: #ffd700;
+}
+
+.yearSelect {
+  width: 150px;
+  min-width: 100px;
+  height: 40px;
+  line-height: 40px;
+  min-height: 40px;
+  outline: none;
+  margin: 10px 0;
+  padding: 3px 10px;
+  background-color: #ffffff;
+  border: 2px solid #0000ff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.yearSelect:hover {
+  cursor: pointer;
+}
+
+.yearSelect:focus {
+  border: 2px solid #3e8fff;
+}

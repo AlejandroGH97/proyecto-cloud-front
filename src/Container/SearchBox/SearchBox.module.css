@@ -1,0 +1,52 @@
+.searchBox {
+  height: 500px;
+  min-height: 400px;
+  width: 500px;
+  min-width: 300px;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 10px;
+  border: 2px solid #0000ff;
+  background-color: #ebebeb;
+  box-shadow: 4px 4px 10px #000000bb;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .searchBox {
+    width: 90%;
+  }
+}
+
+.navButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  height: 50px;
+  width: 50%;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: 2px solid #0000ff;
+  border-radius: 15px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button.active {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.button.active:hover {
+  background-color: #0000ff;
+}
+
+.button:hover {
+  background-color: #c5ddfe;
+}

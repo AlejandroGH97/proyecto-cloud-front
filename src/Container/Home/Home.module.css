@@ -1,0 +1,17 @@
+.homeTitle {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.homeContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .homeContent {
+    flex-direction: column;
+  }
+}
