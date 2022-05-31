@@ -12,7 +12,7 @@
 El usuario puede seleccionar una causa de muerte dentro de una lista. \
 Es posible filtrar las causas usando una barra de búsqueda. \
 El usuario puede marcar alguna causa como favorita y sera guardará su preferencia a través de cookies. \
-Al seleccionar una causa, se filtran los datos por año. \
+Al seleccionar una causa, se filtran los datos por año. 
 
 ### Referencias
 
