@@ -15,7 +15,7 @@ const filterOptions = ({method, ...rest}) => rest;
 const fetch = async (url, options = {}) => {
 	try {
 			const instance = axios.create({
-					baseURL: "http://localhost:8081/api"
+					baseURL: "http://localhost:5000/api"
 			});
 
 			// INTERCEPTOR REQUEST
