@@ -26,4 +26,6 @@ Dataset: https://catalog.data.gov/es_AR/dataset/monthly-counts-of-deaths-by-sele
 
 ### Ejecución
 Ejecutar `npm install` en la carpeta base. \
-Ejecutar con: `npm start`
+Ejecutar con: `npm start` \
+ \
+Para ejecutar en kubernetes: `kubectl apply -f deployment.yaml` ye teniendo un cluster creado.
