@@ -28,4 +28,11 @@ Dataset: https://catalog.data.gov/es_AR/dataset/monthly-counts-of-deaths-by-sele
 Ejecutar `npm install` en la carpeta base. \
 Ejecutar con: `npm start` \
  \
-Para ejecutar en kubernetes: `kubectl apply -f deployment.yaml` ye teniendo un cluster creado.
+Para ejecutar en kubernetes: `kubectl apply -f deployment.yaml` ya teniendo un cluster creado.
+
+### Trabajo a futuro
+#### Monitoreo
+Aunque se llego a implementar prometheus, esto quedo en una etapa temprana. Se pueden trabajar las métricas disponibles para tener una que sirva para otras tareas como escalabilidad. Una métrica sencilla para esto sería utilización de CPU pero también podríamos tomar disponibilidad RAM y disco. 
+ 
+ #### Escalabilidad
+ Una vez que se han implementado mejores métricas en Prometheus, estas se pueden utilizar para tener auto-scaling en el sistema. Una manera de hacer esto sería con Grafana ya que al utilizar las métricas de Prometheus podemos tener horizontal auto-scaling si pasan un threshold que definimos.
